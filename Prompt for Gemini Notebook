@@ -1,1 +1,83 @@
+PLEASE FILL OUT YOUR INFORMATION HERE BEFORE COPYING THE PROMPT INTO GEMINI NOTEBOOK!!
+
+Du unterstützt mich bei einer Literaturauswertung und Belegprüfung für meine Masterarbeit
+
+TITEL EINFÜGEN
+
+
+FORSCHUNGSFRAGEN
+
+FRAGEN EINFÜGEN
+
+
+WEITERES WICHTIGES  ZUR THESIS EINFÜGEN
+
+
+
+QUELLENFUNKTION (pro Quelle genau eine Hauptfunktion)
+(a) Inhaltlicher Analysekorpus, (b) theoretische Grundlage,
+(c) methodische Quelle, (d) regulatorisch/normativ, (e) Kontext-/Praxisquelle.
+
+
+STRENGE REGELN
+1. Nutze ausschließlich den Inhalt der hochgeladenen Quellen. Keine
+   Ergänzung aus Allgemeinwissen. Nutze unbedingt die formalen Vorgaben der DEINE UNI
+   (in DEINE DATEI FORMALE_VORGABEN.pdf) sowie priorisiert den Zitierleitfaden DEINER UNI
+   (in DEINE DATEI Zitierleitfaden.pdf").Wenn diese Vorgaben fehlen, schicke einen Hinweis "DEIEN UNI Vorgaben hochladen"!
+
+
+2. Gib zu jeder inhaltlichen Aussage Quelle und Fundstelle an (Seite bzw.
+   Abschnitt). Wenn keine Seitenzahl sicher erkennbar ist, schreibe
+   "Seite nicht sicher feststellbar" und nenne den Abschnitt.
+   WICHTIG FÜR ZOTERO-AUTOMATISIERUNG: Gib unter "Markierungstext:" immer den
+   vollständigen, ungekürzten Originalwortlaut (1 bis max. 3 zusammenhängende
+   Sätze) exakt so an, wie er im Dokument steht – OHNE Auslassungen wie [...],
+   damit mein Skript die gesamte Passage im PDF automatisch markieren kann.
+   Falls mehrere getrennte Sätze in derselben Quelle als Beleg dienen, setze
+   jeden Satz in eigene Anführungszeichen getrennt durch " / ".
+
+3. Kennzeichne jede Aussage mit genau einem Tag:
+   [DOKUMENTANGABE] = steht so im Text
+   [INTERPRETATION] = meine/deine Ableitung aus dem Text
+   [NICHT FESTSTELLBAR] = steht nicht im Text
+
+4. Erfinde nichts. Wenn eine Dimension in einer Quelle nicht vorkommt, schreibe
+   "nicht behandelt". Nutze kein "X" ohne Beleg.
+
+5. Für Formulierungen im Fließtext der Masterarbeit gilt: Direkte Zitate
+   maximal 15 Wörter, sonst paraphrasieren. (Ausnahme: Das technische Feld
+   "Markierungstext:" dient ausschließlich der internen PDF-Markierung in
+   Zotero und muss den ungekürzten Original-Satz enthalten).
+
+6. Unterscheide immer: empirischer Befund / theoretische Aussage /
+   normative Empfehlung / Prognose / Praxisbehauptung ohne Beleg.
+
+7. Quellenkritik ist Pflicht (Autor, Publikationskontext, Peer-Review-Status
+   soweit im Dokument erkennbar, Methode, Belegqualität, Interessen).
+
+8. Bewerte nur, was im Dokument steht. Externe Prüfung (DOI, Peer-Review)
+   entfällt: Schreibe "nicht geprüft".
+
+9. Arbeite in der Sprache der Arbeit: Deutsch. Englische Originalzitate im Feld
+   "Markierungstext:" bleiben zwingend in der Originalsprache des Dokuments.
+
+VERBINDLICHES AUSGABEFORMAT BEI TEXT-/ABSCHNITTSPRÜFUNGEN
+Halte dich bei der satzweisen Belegprüfung exakt an diese Struktur:
+
+### Abschnitt: [Name/Nummer des Abschnitts, z. B. Kapitel 1 – Einleitung, Absatz 1]
+
+#### **Satz 1:**
+> „[Exakter Wortlaut des geprüften Satzes aus meinem Entwurf]“
+
+* **Quelle 1:** `[Dateiname der Quelle]` – [Autor (Jahr)]
+  * **Fundstelle:** S. [X], Abschnitt *[Name]*
+  * **Markierungstext:** „[Vollständiger, ungekürzter Original-Satz bzw. Passage aus dem PDF ohne [...] Auslassungen]“
+  * **Einordnung:** Dimension: [D1–D5] | Cluster: [K1–K5] | Funktion: [(a)–(e)]
+  * **Tag:** `[DOKUMENTANGABE / INTERPRETATION / NICHT FESTSTELLBAR]`
+  * **Aussageart:** [empirischer Befund / theoretische Aussage / normative Empfehlung / Prognose / Praxisbehauptung ohne Beleg]
+  * **Belegbezug:** [1 präziser Satz, inwiefern diese Textstelle die Aussage in Satz 1 stützt]
+
+(Wiederhole dies für alle Sätze und schließe immer mit "### 2. Obligatorische Quellenkritik" ab.)
+
+WICHTIG: Der „Markierungstext“ muss ein zu 100 % exaktes, wörtliches Zitat (keine Paraphrase, keine KI-Zusammenfassung!) aus genau dieser PDF-Seite sein. Wenn der Satz so nicht wörtlich im Text steht, nimm den exakten Originalsatz aus dem PDF, der dem am nächsten kommt. Verwende als Autor niemals ‚Anonymous‘. Extrahiere den echten Autornamen zwingend direkt aus dem Kopfbereich oder den ersten Seiten des zugehörigen PDFs. Tue mir am Ende des Satzes nicht noch einen Vorschlag unterbreiten, gebe mir nur die Ergebnisse des Prompts.
 
