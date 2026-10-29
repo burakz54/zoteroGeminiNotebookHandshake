@@ -47,10 +47,63 @@ When writing an academic thesis or literature review, **Google NotebookLM** is a
 
 ---
 
-## 📂 Repository Structure
-├── 1_clipboard_highlighter.py     # Core Python script (clipboard parser & PDF highlighter)
-├── start_highlighter.command      # macOS double-click launcher script
-├── xx_NotebookLM Mastertext.txt   # Structured Master Prompt template for Google NotebookLM
-├── requirements.txt               # Python dependencies (PyMuPDF)
-├── LICENSE                        #  License
-└── README.md                      # Project documentation (English)
+📖 Usage Workflow
+Step 1: Set Up Google NotebookLM
+Create a notebook in Google NotebookLM and upload the PDF sources from your Zotero library.
+Open xx_NotebookLM Mastertext.txt, fill in your Document Title, Research Questions, and custom project context (and adjust any university-specific citation rules if needed, don't forget to upload them also!)
+Paste the prompt into NotebookLM together with the draft paragraph/sentences you want to verify.
+
+Step 2: Copy the Output
+NotebookLM will generate a strictly formatted response looking like this:
+### Abschnitt: Chapter 2 – Literature Review, Paragraph 1
+
+#### **Satz 1:**
+> „Your draft thesis sentence to be verified.“
+* **Quelle 1:** `Author_2023_Paper.pdf` – Author (2023)
+  * **Fundstelle:** S. 14, Abschnitt *3.2 Results*
+  * **Markierungstext:** „Exact verbatim sentence directly from the PDF without omissions.“
+  * **Einordnung:** Dimension: D1 | Cluster: K2 | Funktion: (a)
+  * **Tag:** `[DOKUMENTANGABE]`
+  * **Aussageart:** empirischer Befund
+  * **Belegbezug:** Explains how this passage empirically supports Sentence 1.
+
+-->Copy the entire NotebookLM output to your clipboard by clicking the copy button in the bottom (or with markdown and Cmd + C).
+
+Step 3: Run the Auto-Highlighter
+Keep zotero closed, Double-click start_highlighter.command in Finder or run the script from your terminal: python3 1_clipboard_highlighter.py
+(be sure, that both files are in the same folder!)
+
+Step 4: View Highlights in Zotero
+Reopen the PDF tab in Zotero (or restart Zotero) to see your newly created highlights and structured notes!
+
+⚙️ Configuration (zotero_config.json)
+On its first run, the script automatically detects your Zotero storage directory and saves it to a local zotero_config.json file:
+{
+  "storage_path": "/Users/yourname/Zotero/storage"
+}
+If you ever move your Zotero data directory, simply delete zotero_config.json and run the script again.
+
+🌍 Customizing for Other Languages
+Currently, the parser keywords in 1_clipboard_highlighter.py match the German labels defined in xx_NotebookLM Mastertext.txt (Abschnitt:, Satz, Quelle, Fundstelle, Markierungstext:, Einordnung, Tag, Aussageart, Belegbezug).
+Note that English quotes inside PDFs are already supported out of the box (Rule 9 in the Master Prompt instructs NotebookLM to keep Markierungstext: in the original document language). Feel free to translate this!
+
+🤝 Contributing & License
+Contributions, issues, and feature requests are welcome!
+
+
+
+LICENSE
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Copyright (c) 2026 [Dein Name]
+
+You are free to:
+- Share: copy and redistribute the material in any medium or format
+- Adapt: remix, transform, and build upon the material
+
+Under the following terms:
+- Attribution (BY): You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- NonCommercial (NC): You may not use the material for commercial purposes.
+- ShareAlike (SA): If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
