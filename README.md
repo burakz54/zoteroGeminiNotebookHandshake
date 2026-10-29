@@ -49,8 +49,11 @@ When writing an academic thesis or literature review, **Google NotebookLM** is a
 
 📖 Usage Workflow
 Step 1: Set Up Google NotebookLM
+
 Create a notebook in Google NotebookLM and upload the PDF sources from your Zotero library.
+
 Open xx_NotebookLM Mastertext.txt, fill in your Document Title, Research Questions, and custom project context (and adjust any university-specific citation rules if needed, don't forget to upload them also!)
+
 Paste the prompt into NotebookLM together with the draft paragraph/sentences you want to verify.
 
 Step 2: Copy the Output
