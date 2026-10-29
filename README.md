@@ -1,6 +1,6 @@
 # 📚 NotebookLM-to-Zotero Auto-Highlighter
 
-Automatically highlight verified quotes and attach structured research annotations directly inside your local **Zotero PDF library** from **Google NotebookLM** outputs — with a single click on macOS.
+Automatically highlight verified quotes and attach structured research annotations directly inside your local **Zotero PDF library** from **Google NotebookLM** outputs — with a single click on macOS. Happy for announcing my first publication on GitHub! :-)
 
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
