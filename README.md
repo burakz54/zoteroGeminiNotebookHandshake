@@ -50,6 +50,7 @@ When writing an academic thesis or literature review, **Google NotebookLM** is a
 ---
 
 📖 Usage Workflow
+
 Step 1: Set Up Google NotebookLM
 
 Create a notebook in Google NotebookLM and upload the PDF sources from your Zotero library.
@@ -89,13 +90,13 @@ On its first run, the script automatically detects your Zotero storage directory
 If you ever move your Zotero data directory, simply delete zotero_config.json and run the script again.
 
 🌍 Customizing for Other Languages
+
 Currently, the parser keywords in 1_clipboard_highlighter.py match the German labels defined in xx_NotebookLM Mastertext.txt (Abschnitt:, Satz, Quelle, Fundstelle, Markierungstext:, Einordnung, Tag, Aussageart, Belegbezug).
 Note that English quotes inside PDFs are already supported out of the box (Rule 9 in the Master Prompt instructs NotebookLM to keep Markierungstext: in the original document language). Feel free to translate this!
 
 🤝 Contributing & License
+
 Contributions, issues, and feature requests are welcome!
-
-
 
 LICENSE
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
