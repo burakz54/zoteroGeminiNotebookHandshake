@@ -55,9 +55,9 @@ Step 1: Set Up Google NotebookLM
 
 Create a notebook in Google NotebookLM and upload the PDF sources from your Zotero library.
 
-Open xx_NotebookLM Mastertext.txt, fill in your Document Title, Research Questions, and custom project context (and adjust any university-specific citation rules if needed, don't forget to upload them also!)
+Open 3 Prompt for Gemini Notebook.txt, fill in your Document Title, Research Questions, and custom project context (and adjust any university-specific citation rules if needed, don't forget to upload them also!)
 
-Paste the prompt into NotebookLM together with the draft paragraph/sentences you want to verify.
+Paste the prompt into Gemini Notebook together with the draft paragraph/sentences you want to verify.
 
 Step 2: Copy the Output
 NotebookLM will generate a strictly formatted response looking like this:
@@ -76,7 +76,7 @@ NotebookLM will generate a strictly formatted response looking like this:
 -->Copy the entire NotebookLM output to your clipboard by clicking the copy button in the bottom (or with markdown and Cmd + C).
 
 Step 3: Run the Auto-Highlighter
-Keep zotero closed, Double-click start_highlighter.command in Finder or run the script from your terminal: python3 1_clipboard_highlighter.py
+Keep zotero closed, Double-click 2 start_highlighter.command in Finder or run the script from your terminal: python3 1_clipboard_highlighter.py
 (be sure, that both files are in the same folder!)
 
 Step 4: View Highlights in Zotero
