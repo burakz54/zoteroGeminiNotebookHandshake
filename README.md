@@ -98,6 +98,8 @@ Note that English quotes inside PDFs are already supported out of the box (Rule 
 
 Contributions, issues, and feature requests are welcome!
 
+This project is licensed for non-commercial use only — see the LICENSE file for details. Commercial use of this software and prompt template is strictly prohibited.
+
 LICENSE
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
