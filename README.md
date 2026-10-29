@@ -5,8 +5,6 @@ Automatically highlight verified quotes and attach structured research annotatio
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![PyMuPDF](https://img.shields.io/badge/PDF_Engine-PyMuPDF-green)
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
-
 ---
 
 ## ✨ Overview & Motivation
