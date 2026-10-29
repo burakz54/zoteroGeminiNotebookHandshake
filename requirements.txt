@@ -1,1 +1,13 @@
+🛠️ Prerequisites & Installation
+
+1. System Requirements
+macOS (uses native pbpaste for clipboard access and .command launcher; Linux/Windows users can adapt get_clipboard_text() to use pyperclip).
+Python 3.8+
+Zotero (Desktop app installed locally with downloaded PDF attachments).
+
+2. Install Dependencies
+Clone this repository and install PyMuPDF (fitz)
+
+3. Make the macOS Launcher Executable
+To run the tool by double-clicking in Finder, grant execution permissions önce: chmod +x start_highlighter.command
 
