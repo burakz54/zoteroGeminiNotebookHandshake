@@ -103,7 +103,7 @@ This project is licensed for non-commercial use only — see the LICENSE file fo
 LICENSE
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
-Copyright (c) 2026 [Dein Name]
+Copyright (c) 2026 Burak Zeren
 
 You are free to:
 - Share: copy and redistribute the material in any medium or format
